@@ -1,3 +1,85 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 7%);
+    --yellow500: hsl(39, 100%, 71%);
+    --yellow100: hsl(31, 66%, 93%);
+    --purple500: hsl(256, 67%, 59%);
+    --purple100: hsl(254, 88%, 90%);
+    --font-family: 'DM Sans', sans-serif;
+    --font-size: 18px;
+    --font-weight-normal: 400;
+    --font-weight-bold: 500;
+}
+
+body {
+    font-family: var(--font-family);
+    
+}
+
+.grid-container {
+   background-color: var(--white);
+
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-auto-rows: minmax(180px, auto);
+}
+
+.grid-item {
+    text-align: center;
+    margin: 30px;
+    width: auto;
+    font-size: var(--font-size);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-normal);
+}
+
+#social {
+    background-color: var(--purple500);
+    color: var(--white);
+}
+
+#manage {
+    background-color: var(--white);
+}
+
+#maintain {
+    background-color: var(--yellow500);
+    text-align: left;
+}
+
+#schedule {
+    background-color: var(--purple100);
+}
+
+#growth {
+    background-color: var(--purple500);
+}
+
+#faster_growth {
+    background-color: var(--white);
+}
+
+#creation {
+    background-color: var(--yellow100);
+}
+
+#ai-content {
+    background-color: var(--yellow500);
 }
