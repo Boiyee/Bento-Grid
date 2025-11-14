@@ -23,7 +23,6 @@ body {
 }
 
 #grid-container {
-    background-color: black;
     display: grid;
     gap: 20px;
     max-inline-size: 1200px;
@@ -160,7 +159,6 @@ h1 {
         align-content: start;
         
     }
-}
 }
 
 
