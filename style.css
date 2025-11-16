@@ -49,13 +49,12 @@ body {
     align-items: center;
     min-height: 200px;
     font-size: var(--font-size);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.grid-item:hover {
+/*.grid-item:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-}
+}*/
 
 h2 {
     font-size: clamp(1.5rem, 4vw, 2.5rem);
@@ -83,14 +82,6 @@ img {
     grid-area: one;
     position: relative;
     overflow: hidden;
-}
-
-#social::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, rgba(255,255,255,0.1), transparent);
-    pointer-events: none;
 }
 
 #manage {
@@ -138,11 +129,9 @@ img {
 #faster_growth {
     background-color: var(--white);
     grid-area: six;
-    border: 2px solid var(--purple500);
 }
 
 #faster_growth h2 {
-    color: var(--purple500);
     font-size: 2.5rem;
 }
 
