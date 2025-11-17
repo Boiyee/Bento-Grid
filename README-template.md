@@ -1,6 +1,6 @@
 # Frontend Mentor - Bento grid solution
 
-This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -43,8 +43,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 ```html
@@ -70,15 +68,12 @@ Users should be able to:
 ```
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want to focus more on Styles and JavaScript projects to master my skills.
 
 ### Useful resources
 
-- [Example resource 1](https://www.github.com/Boiyee/Calculator) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.github.com/Boiyee/qr-code) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Example resource 1](https://www.github.com/Boiyee/Calculator) - This helped me for my layout.
+- [Example resource 2](https://www.github.com/Boiyee/qr-code) - This also assisted me with the project.
 
 ## Author
 
@@ -88,4 +83,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-It was a success, thanks to Adeturkey, Boiyee and Claude.
+It was a success, thanks to Adeturkey, Boiyee.
+You know what they say, practice makes *improvement*.
