@@ -27,11 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/Screenshot1.png)
+![](./assets/Screenshot2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [Add solution URL here](https://github.com/Boiyee/Bento-Grid)
 - Live Site URL: [Add live site URL here](https://boiyee.github.io/Bento-Grid/)
 
 ## My process
@@ -77,7 +78,7 @@ I want to focus more on Styles and JavaScript projects to master my skills.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Jubreel](https://www.github.com/Boiyee)
 - Frontend Mentor - [@Boiyee](https://www.frontendmentor.io/profile/Boiyee)
 - Twitter - [@OduwaleJubreel](https://www.twitter.com/Boiyee)
 
