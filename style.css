@@ -19,148 +19,150 @@
 
 body {
     font-family: var(--font-family);
-    
+    background: #f8f9fa;
+    padding: 2rem 1rem;
 }
 
 #grid-container {
-    background-color: black;
     display: grid;
-    gap: 20px;
+    gap: 3rem;
     max-inline-size: 1200px;
     margin-inline: auto;
-    grid-template-areas: 'one''two''three''four''five''six''seven''eight';
+    grid-template-areas: 'one' 'two' 'three' 'four' 'five' 'six' 'seven' 'eight';
+    padding: 0 1rem;
+}
 
-    @media (width > 1000px) {
-        grid-template-areas: "seven one one four""seven two three four""eight two three four""eight six five five";
+@media (width > 960px) {
+    #grid-container {
+        grid-template-areas: "seven one one four" "seven two three four" "eight two three four" "eight six five five";
+        gap: 2rem;
     }
 }
 
 .grid-item {
     text-align: center;
-
-    border-radius: 2.1rem;
-    padding: 3.2rem;
-    /*display: flex;
+    border-radius: 1.2rem;
+    padding: 2rem;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid transparent;
-    overflow: hidden;
-    position: relative;*/
-    margin: 5px;
-    width: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
     font-size: var(--font-size);
 }
 
-header {
-    font-size: 3rem;
+/*.grid-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}*/
+
+h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
     text-align: center;
-    margin-bottom: 2rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    font-weight: var(--font-weight-bold);
 }
 
-h1 {
-    font-size: 1.7rem;
+p {
+    font-size: 1rem;
     font-weight: var(--font-weight-normal);
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
 }
 
 #social {
     background-color: var(--purple500);
     color: var(--white);
     grid-area: one;
+    position: relative;
+    overflow: hidden;
 }
 
 #manage {
     background-color: var(--white);
     grid-area: two;
-
-    >img {
-        filter: drop-shadow(0 0 1rem grey);
-    }
-
-    @media (width > 1000px) {
-        gap: 16px;
-        align-content: start;
-    }
+    border: 1px solid #e5e7eb;
 }
 
+#manage img {
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.1));
+}
 
 #maintain {
     background-color: var(--yellow500);
     grid-area: three;
-
-    @media (width > 1000px) {
-        margin-bottom: -125px;
-    }
+    color: var(--black);
 }
-
 
 #schedule {
     background-color: var(--purple100);
     grid-area: four;
-    
-    >img {
-        width: 75%;
+    color: var(--black);
+}
+
+@media (width > 960px) {
+    #schedule {
+        grid-column: span 1;
     }
+}
+
+#schedule img {
+    width: 100%;
 }
 
 #growth {
     background-color: var(--purple500);
     grid-area: five;
+    color: var(--white);
+}
 
-    >img {
-        width: 75%;
-        order: -1;
-    }
-
-    @media (width > 1000px) {
-        gap: 16px;
-        align-content: start;
-        grid-template-columns: 1fr 1fr;
-    }
+#growth img {
+    width: 80%;
 }
 
 #faster_growth {
     background-color: var(--white);
-    font-size: 3rem;
     grid-area: six;
+}
 
-    >header >span {
-        font-size: 1.5rem;
-        font-weight: var(--font-weight-normal);
-        display: block;
-    }
+#faster_growth h2 {
+    font-size: 2.5rem;
+}
 
-    >img {
-        width: 60%;
-    }
+#faster_growth h2 span {
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-normal);
+    display: block;
+    color: var(--black);
+}
+
+#faster_growth img {
+    width: 70%;
 }
 
 #creation {
     background-color: var(--yellow100);
     grid-area: seven;
-
-    >img {
-        width: 60%;
-    }
 }
 
+#creation img {
+    width: 60%;
+}
 
 #ai-content {
     background-color: var(--yellow500);
     grid-area: eight;
-    
-    >img {
-        width: 60%;
-    }
-
-    @media (width > 1000px) {
-        align-content: start;
-        
-    }
 }
 
+#ai-content img {
+    width: 60%;
+}
 
 
 .attribution {
